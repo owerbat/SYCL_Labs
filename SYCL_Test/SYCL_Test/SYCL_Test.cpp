@@ -23,7 +23,7 @@ int main() {
 	std::cout << std::endl;
 
 	try {
-		cl::sycl::queue queue(cl::sycl::cpu_selector{}, cl::sycl::async_handler{});
+		cl::sycl::queue queue(cl::sycl::gpu_selector{}, cl::sycl::async_handler{});
 
 		cl::sycl::buffer<FPType, 1> a_buffer(a.data(), cl::sycl::range<1>(a.size()));
 		cl::sycl::buffer<FPType, 1> b_buffer(b.data(), cl::sycl::range<1>(a.size()));

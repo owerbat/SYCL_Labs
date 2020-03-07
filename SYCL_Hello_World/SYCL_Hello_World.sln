@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SYCL_Hello_World", "SYCL_Hello_World\SYCL_Hello_World.vcxproj", "{B086E056-DA24-475C-A77F-F09D21EEAC60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B086E056-DA24-475C-A77F-F09D21EEAC60}.Debug|x64.ActiveCfg = Debug|x64
+		{B086E056-DA24-475C-A77F-F09D21EEAC60}.Debug|x64.Build.0 = Debug|x64
+		{B086E056-DA24-475C-A77F-F09D21EEAC60}.Release|x64.ActiveCfg = Release|x64
+		{B086E056-DA24-475C-A77F-F09D21EEAC60}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7876007-9EB0-4F0A-99EE-1144C44D39F3}
+	EndGlobalSection
+EndGlobal
