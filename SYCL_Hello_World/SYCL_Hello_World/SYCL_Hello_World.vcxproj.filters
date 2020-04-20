@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$projectname$.cpp">
+    <ClCompile Include="SYCL_Hello_World.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
